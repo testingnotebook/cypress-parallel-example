@@ -1,0 +1,30 @@
+{
+  "name": "cypress-parallel-example",
+  "version": "1.0.0",
+  "description": "An example repo using the cypress-parallel package to run tests in parallel on a single machine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:parallel": "cypress-parallel -s test -t 3 -d cypress/e2e/**/*.cy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testingnotebook/cypress-parallel.git"
+  },
+  "keywords": [
+    "cypress",
+    "parallel"
+  ],
+  "author": "Aaron Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testingnotebook/cypress-parallel-example/issues"
+  },
+  "homepage": "https://github.com/testingnotebook/cypress-parallel-examples#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^13.3.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "cypress-parallel": "^0.13.0"
+  }
+}
