@@ -1,5 +1,7 @@
 # cypress-parallel-example
 
+[![Cypress Tests](https://github.com/testingnotebook/cypress-parallel-example/actions/workflows/main.yml/badge.svg)](https://github.com/testingnotebook/cypress-parallel-example/actions/workflows/main.yml)
+
 This project supports the following blog post https://testingnotebook.com/posts/running-cypress-tests-in-parallel-on-one-machine/ which demonstrates how to run Cypress tests in parallel on one machine. Please click the link for more information.
 
 ## Clone project
