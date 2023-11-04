@@ -2,8 +2,6 @@ name: Cypress Tests
 
 on:
   pull_request:
-    types:
-      - opened
 jobs:
   build:
     name: Cypress tests
