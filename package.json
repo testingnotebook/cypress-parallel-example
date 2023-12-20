@@ -25,6 +25,6 @@
   "devDependencies": {
     "cypress": "^13.3.0",
     "cypress-multi-reporters": "^1.6.3",
-    "cypress-parallel": "^0.13.0"
+    "cypress-parallel": "^0.14.0"
   }
 }
