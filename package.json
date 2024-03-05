@@ -23,7 +23,7 @@
   "homepage": "https://github.com/testingnotebook/cypress-parallel-examples#readme",
   "dependencies": {},
   "devDependencies": {
-    "cypress": "^12.1.0",
+    "cypress": "^13.0.0",
     "cypress-multi-reporters": "^1.6.3",
     "cypress-parallel": "^0.14.0"
   }
